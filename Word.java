@@ -6,6 +6,13 @@ public class Word {
 private String name;
 private String meaning;
 private String pronounce;
+private String wordkind;
+public String getWordkind() {
+	return wordkind;
+}
+public void setWordkind(String wordkind) {
+	this.wordkind = wordkind;
+}	
 public String getName() {
 	return name;
 }
